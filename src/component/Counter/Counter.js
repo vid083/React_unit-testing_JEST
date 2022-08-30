@@ -17,7 +17,7 @@ const Counter = () => {
         +
       </button>
       <p data-testid="counter">{counter}</p>
-      <button disabled data-testid="decrement" onClick={decrementCounter}>
+      <button data-testid="decrement" onClick={decrementCounter}>
         -
       </button>
     </>

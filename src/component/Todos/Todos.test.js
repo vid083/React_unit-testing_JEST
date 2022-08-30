@@ -1,5 +1,5 @@
 import { render, waitFor, screen } from "@testing-library/react";
-import Todos from "../component/Todos";
+import Todos from "./Todos";
 import axios from "axios";
 
 jest.mock("axios");
